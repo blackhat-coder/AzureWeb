@@ -1,3 +1,3 @@
 # AzureWeb
 
-Minimal Web Proj to test Azure Web Apps
+Minimal Web Proj to test Azure Web App
