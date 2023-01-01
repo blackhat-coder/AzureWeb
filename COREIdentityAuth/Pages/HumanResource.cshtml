@@ -1,0 +1,13 @@
+﻿@page
+@model COREIdentityAuth.Pages.authPageModel
+@{
+}
+<div class="text-center">
+    <h1 class="display-4">Human Resource</h1>
+    <h3>List Employees</h3>
+    <ul>
+        @foreach(var item in Model.WeatherForecasts){
+            <li>@item.Date.ToLongDateString() - @item.Summary</li>
+        }
+    </ul>
+</div>
